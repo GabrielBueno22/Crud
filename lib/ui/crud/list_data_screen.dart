@@ -42,7 +42,7 @@ class CrudListItem extends StatelessWidget {
                     return const DeleteAlertDialog();
                   });
             },
-            backgroundColor: Color(0xFFFE4A49),
+            backgroundColor: const Color(0xFFFE4A49),
             foregroundColor: Colors.white,
             icon: Icons.delete,
             label: 'Delete',
@@ -56,7 +56,7 @@ class CrudListItem extends StatelessWidget {
             showDialog(
                 context: context,
                 builder: (context) {
-                  return VisualizeAllContactInfo();
+                  return const VisualizeAllContactInfo();
                 });
           },
           shape: const Border(

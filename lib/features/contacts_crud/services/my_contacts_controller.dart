@@ -1,8 +1,8 @@
 import 'package:crud_app/features/contacts_crud/save_contact.dart';
 import 'package:crud_app/features/contacts_crud/visualize_contacts.dart';
-import 'package:crud_app/infra/sqlite.dart';
 import 'package:crud_app/models/contact_data.dart';
 
+import '../../../helpers/localDb/local_db.dart';
 import '../delete_contact.dart';
 
 class ContactsServices
